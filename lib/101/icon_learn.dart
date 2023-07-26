@@ -12,7 +12,7 @@ class IconLearn extends StatelessWidget {
       body: Column(children: [
         Icon(
           Icons.message_outlined,
-          color: Theme.of(contex,
+          color: iconColor.flory,
           size: iconSize.iconSmall,
         )
       ],)
@@ -22,7 +22,6 @@ class IconLearn extends StatelessWidget {
 
 class IconSizes {
   final double iconSmall = 40;
-  
 }
 
 class IconColors {
